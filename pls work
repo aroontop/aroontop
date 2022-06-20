@@ -363,6 +363,28 @@ function Kavo.CreateLib(kavName, themeList)
     
     UICorner.Parent = Close
 
+
+local function EHBQW_fake_script() -- KeyLoin.Dragable 
+	local script = Instance.new('LocalScript', KeyLoin)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(EHBQW_fake_script)()
+
+
+local function HLJT_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	
+	end)
+end
+
+coroutine.wrap(HLJT_fake_script)()
     Main.Name = "Main"
     Main.Parent = ScreenGui
     Main.BackgroundColor3 = themeList.Background
