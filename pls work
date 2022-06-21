@@ -318,7 +318,7 @@ function Kavo.CreateLib(kavName, themeList)
     KeyLink.TextColor3 = Color3.fromRGB(255, 255, 255)
     KeyLink.TextSize = 44.000
     KeyLink.MouseButton1Click:Connect(function()
-    setclipboard("ok")
+    setclipboard("https://link-hub.net/462109/arrow-sploit-key1")
     end)
     UICorner_5.Parent = KeyLink
     
