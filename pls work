@@ -303,7 +303,7 @@ function Kavo.CreateLib(kavName, themeList)
 		local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
- Title = "Invaild Key",
+ Title = "I22nvalid Key",
  Text = "",
 Duration = 5;
 }) 
