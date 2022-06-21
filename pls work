@@ -289,7 +289,7 @@ function Kavo.CreateLib(kavName, themeList)
     local thing = {}
     
     function thing:GetKey()
-        return "okkid"
+        return "Ghuih89GjkgbohjloBY"
     end
     
     local key = thing:GetKey()
