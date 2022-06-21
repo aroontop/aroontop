@@ -299,6 +299,14 @@ function Kavo.CreateLib(kavName, themeList)
     wait(0.5)
     Main.Visible = true
     
+	else 
+		local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+ Title = "Invild Key",
+ Text = "",
+Duration = 5;
+}) 
     end
         end)
     UICorner_4.Parent = Submit
